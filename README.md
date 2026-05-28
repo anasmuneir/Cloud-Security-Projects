@@ -8,7 +8,7 @@ A collection of production-grade cloud security projects designed to demonstrate
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐       │
-│   │   Identity  │  │   Network   │  │   DevSecOps │  │  Compliance │       │
+│   │   Identity  │  │   Network   │  │  DevSecOps  │  │  Compliance │       │
 │   │     & AM    │  │   Security  │  │             │  │   & Audit   │       │
 │   └──────┬──────┘  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘       │
 │          │                │                │                │              │
