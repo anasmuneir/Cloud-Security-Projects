@@ -1,6 +1,16 @@
 # Cloud Security Portfolio
 
-A collection of production-grade cloud security projects designed to demonstrate real-world expertise.
+A hands-on cloud security portfolio showcasing AWS security engineering, Infrastructure as Code (IaC), DevSecOps, and cloud governance projects.
+
+## Technologies
+
+- AWS
+- Terraform
+- Docker
+- Git & GitHub
+- Linux (Ubuntu)
+- WSL2
+- Visual Studio Code
 
 ## Prerequisites
 
