@@ -14,7 +14,7 @@ A hands-on cloud security portfolio showcasing AWS security engineering, Infrast
 
 ## Prerequisites
 
-The following tools were configured before starting the labs in this repository:
+Required tooling for reproducing the lab environment:
 
 - Windows 11
 - WSL2
@@ -33,6 +33,10 @@ docker --version
 git --version
 uname -a
 ```
+
+## Portfolio Roadmap
+
+The following projects are planned and will be completed as part of this cloud security portfolio.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
