@@ -2,6 +2,20 @@
 
 A collection of production-grade cloud security projects designed to demonstrate real-world expertise.
 
+## Prerequisites
+
+The following tools were configured before starting the labs in this repository:
+
+- Windows 11
+- WSL2
+- Ubuntu
+- Visual Studio Code
+- VS Code Remote - WSL Extension
+- Git
+- Docker Desktop
+- Terraform
+
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                        CLOUD SECURITY PORTFOLIO                             │
