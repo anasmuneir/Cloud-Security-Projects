@@ -15,6 +15,13 @@ The following tools were configured before starting the labs in this repository:
 - Docker Desktop
 - Terraform
 
+### Verification
+
+```bash
+terraform version
+docker --version
+git --version
+uname -a
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
