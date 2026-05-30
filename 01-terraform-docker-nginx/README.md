@@ -52,9 +52,29 @@ The deployment was verified using Docker.
 
 The deployed service was tested through a web browser.
 
-<img width="1637" height="622" alt="image" src="https://github.com/user-attachments/assets/a46ff8f9-1509-4389-b6f6-3b839a59d04a" />
+<img width="1637" height="622" alt="image" src="https://github.com/user-attachments/assets/e162f6e4-6d49-4f0a-b039-548fb319da66" />
 
 **Result:** Nginx welcome page successfully displayed at http://localhost:8080.
+
+## Key Concepts Learned
+
+* Infrastructure as Code (IaC)
+* Terraform Providers and Resources
+* Desired State vs Current State
+* Terraform Init, Plan, and Apply Workflow
+* Docker Images vs Containers
+* Port Mapping
+* Configuration Drift Detection
+* Infrastructure Validation
+
+## Security Considerations
+
+* Used .gitignore to exclude Terraform-generated files.
+* Committed .terraform.lock.hcl for provider version consistency.
+* Verified no credentials or secrets were committed.
+* Excluded Terraform state files from version control.
+* Reviewed repository before publication.
+
 
 
 
