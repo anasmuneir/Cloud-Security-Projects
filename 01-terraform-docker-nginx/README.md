@@ -75,6 +75,11 @@ The deployed service was tested through a web browser.
 * Excluded Terraform state files from version control.
 * Reviewed repository before publication.
 
+## Project Outcome
+
+Successfully deployed and validated an Nginx container using Terraform while developing foundational Infrastructure as Code skills applicable to future cloud security projects.
+
+
 
 
 
