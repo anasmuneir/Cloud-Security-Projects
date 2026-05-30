@@ -31,14 +31,14 @@ Web Browser
 
 ## Validation & Evidence
 
-### Infrastructure Planning
+### Terraform State Verification
 
-Terraform identified the required resources before deployment.
+Terraform compared the deployed infrastructure against the configuration and confirmed that the current state matched the desired state.
+
+<img width="1445" height="327" alt="image" src="https://github.com/user-attachments/assets/b7c8e929-c3ca-4c7a-b47f-e19897dd845e" />
 
 
-
-**Result:** Terraform planned to create the Nginx image and container.
-
+**Result:** Terraform reported no changes, confirming that the deployed infrastructure matched the configuration defined in code.
 ### Container Verification
 
 The deployment was verified using Docker.
