@@ -69,11 +69,36 @@ The deployed service was tested through a web browser.
 
 ## Security Considerations
 
-* Used .gitignore to exclude Terraform-generated files.
-* Committed .terraform.lock.hcl for provider version consistency.
-* Verified no credentials or secrets were committed.
+* Used `.gitignore` to exclude Terraform-generated files.
+* Committed `.terraform.lock.hcl` to ensure consistent provider versions.
+* Verified no credentials, secrets, or tokens were committed.
 * Excluded Terraform state files from version control.
-* Reviewed repository before publication.
+* Reviewed repository contents before publishing to GitHub.
+
+
+## Challenges Encountered
+
+### Docker Engine Connectivity
+
+Terraform initially failed because it could not communicate with Docker Engine.
+
+**Error:**
+
+```text
+Cannot connect to the Docker daemon
+```
+
+**Resolution:**
+
+* Verified Docker Desktop was running.
+* Confirmed WSL integration was enabled.
+* Tested Docker CLI functionality.
+* Verified Docker daemon accessibility using `docker ps`.
+
+After restoring Docker connectivity, Terraform successfully deployed the infrastructure.
+
+
+
 
 ## Project Outcome
 
