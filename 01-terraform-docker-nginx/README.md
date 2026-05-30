@@ -1,18 +1,10 @@
-# Terraform Docker Nginx Lab
+# Project 01 - Infrastructure as Code Foundations with Terraform and Docker
 
-## Objective
+## Executive Summary
 
-Learn Infrastructure as Code (IaC) fundamentals by deploying an Nginx web server using Terraform and Docker.
+This project demonstrates foundational Infrastructure as Code (IaC) concepts using Terraform and Docker. The objective was to deploy an Nginx web server while learning Terraform providers, resources, infrastructure lifecycle management, and deployment validation.
 
-## Why This Project?
-
-This project introduces:
-
-* Terraform Providers
-* Terraform Resources
-* Terraform State
-* Docker Containers
-* Infrastructure Lifecycle Management
+---
 
 ## Architecture
 
@@ -25,11 +17,9 @@ Docker Engine
 Nginx Container
 ↓
 localhost:8080
+↓
+Web Browser
 
-## Learning Goals
+---
 
-* Understand Infrastructure as Code
-* Learn Terraform workflow
-* Deploy a containerized application
-* Understand Terraform state management
-* Practice Git and GitHub documentation
+
