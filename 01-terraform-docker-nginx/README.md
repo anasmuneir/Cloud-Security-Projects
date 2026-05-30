@@ -48,6 +48,14 @@ The deployment was verified using Docker.
 
 **Result:** Container successfully running with port mapping configured.
 
+### Application Verification
+
+The deployed service was tested through a web browser.
+
+<img width="1637" height="622" alt="image" src="https://github.com/user-attachments/assets/a46ff8f9-1509-4389-b6f6-3b839a59d04a" />
+
+**Result:** Nginx welcome page successfully displayed at http://localhost:8080.
+
 
 
 
