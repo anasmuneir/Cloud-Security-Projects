@@ -20,5 +20,34 @@ localhost:8080
 Web Browser
 
 ```
+## What I Implemented
+
+* Configured the Docker provider in Terraform.
+* Pulled the official Nginx image from Docker Hub.
+* Created a Terraform-managed Docker container.
+* Configured port mapping (8080 → 80).
+* Deployed infrastructure using Terraform.
+* Validated the deployment through Docker and browser testing.
+
+## Validation & Evidence
+
+### Infrastructure Planning
+
+Terraform identified the required resources before deployment.
+
+
+
+**Result:** Terraform planned to create the Nginx image and container.
+
+### Container Verification
+
+The deployment was verified using Docker.
+
+<img width="1447" height="458" alt="image" src="https://github.com/user-attachments/assets/d9daa382-83f5-4f2f-bc33-a5b47b8a66e2" />
+
+
+**Result:** Container successfully running with port mapping configured.
+
+
 
 
