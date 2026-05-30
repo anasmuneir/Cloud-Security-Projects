@@ -1,0 +1,31 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.tfvars
+crash.log
+
+# AWS
+.aws/
+
+# Environment Variables
+.env
+.env.*
+
+# SSH Keys
+*.pem
+id_rsa
+id_ed25519
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
