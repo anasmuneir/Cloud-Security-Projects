@@ -15,3 +15,15 @@ Provision IAM resources through Terraform and manage permissions using group-bas
 * Git
 * GitHub
 
+## Architecture
+
+Terraform → AWS Provider → IAM User → IAM Group → IAM Policy
+
+## Key Concepts
+
+* Identity and Access Management (IAM)
+* Authentication
+* Authorization
+* Principle of Least Privilege
+* Infrastructure as Code (IaC)
+* Terraform State Management
