@@ -27,3 +27,10 @@ Terraform → AWS Provider → IAM User → IAM Group → IAM Policy
 * Principle of Least Privilege
 * Infrastructure as Code (IaC)
 * Terraform State Management
+
+## Validation & Evidence
+### Project Initialization
+
+
+
+**Result:** Terraform project structure created and version controlled before implementation began.
