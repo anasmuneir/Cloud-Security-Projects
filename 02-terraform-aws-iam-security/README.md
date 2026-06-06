@@ -8,3 +8,10 @@ This project demonstrates the implementation of AWS Identity and Access Manageme
 
 Provision IAM resources through Terraform and manage permissions using group-based access control rather than assigning permissions directly to users.
 
+## Technologies Used
+
+* Terraform
+* AWS IAM
+* Git
+* GitHub
+
