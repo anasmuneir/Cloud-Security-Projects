@@ -34,4 +34,13 @@ Terraform → AWS Provider → IAM User → IAM Group → IAM Policy
 <img width="1101" height="253" alt="image" src="https://github.com/user-attachments/assets/7f9b3dee-9283-487a-aed7-65b8d514edfa" />
 
 
-**Result:** Terraform project structure created and version controlled before implementation began.
+Result: Project structure initialized successfully.
+
+### AWS CLI Installation
+
+<img width="1162" height="120" alt="image" src="https://github.com/user-attachments/assets/c8e5c5e6-d75b-4ad3-9aaf-db862bdd9832" />
+
+Result: AWS CLI v2 successfully installed and verified.
+
+
+
