@@ -31,6 +31,7 @@ Terraform → AWS Provider → IAM User → IAM Group → IAM Policy
 ## Validation & Evidence
 ### Project Initialization
 
+<img width="1101" height="253" alt="image" src="https://github.com/user-attachments/assets/7f9b3dee-9283-487a-aed7-65b8d514edfa" />
 
 
 **Result:** Terraform project structure created and version controlled before implementation began.
