@@ -49,4 +49,12 @@ Result: AWS CLI v2 successfully installed and verified.
 
 Result: Dedicated IAM user configured for Terraform authentication with console access disabled.
 
+### Access Control Design
+
+<img width="1362" height="421" alt="image" src="https://github.com/user-attachments/assets/a5efb329-7837-497f-a515-0afea925cb11" />
+
+Result: Group-based access control implemented by assigning permissions through an IAM group rather than directly to the user.
+
+Security Note: AdministratorAccess was used in this lab. Production environments should follow the Principle of Least Privilege.
+
 
