@@ -55,6 +55,6 @@ Result: Dedicated IAM user configured for Terraform authentication with console 
 
 Result: Group-based access control implemented by assigning permissions through an IAM group rather than directly to the user.
 
-Security Note: AdministratorAccess was used in this lab. Production environments should follow the Principle of Least Privilege.
+**Security Note**: AdministratorAccess was used in this lab. Production environments should follow the Principle of Least Privilege.
 
 
