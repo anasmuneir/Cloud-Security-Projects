@@ -42,5 +42,11 @@ Result: Project structure initialized successfully.
 
 Result: AWS CLI v2 successfully installed and verified.
 
+### IAM User Creation
+
+<img width="1397" height="581" alt="image" src="https://github.com/user-attachments/assets/b99bc8f7-ce07-4e22-b446-1f9330719b83" />
+
+
+Result: Dedicated IAM user configured for Terraform authentication with console access disabled.
 
 
