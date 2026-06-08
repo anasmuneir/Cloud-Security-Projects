@@ -66,6 +66,10 @@ Result: AWS CLI successfully authenticated using IAM access keys.
 <img width="1237" height="250" alt="image" src="https://github.com/user-attachments/assets/f6459a42-359b-4d86-9a3e-a08c74b48e9c" />
 Result: Terraform initialized successfully and the AWS provider was downloaded and configured.
 
+### Terraform Plan
+
+<img width="1235" height="380" alt="image" src="https://github.com/user-attachments/assets/583be098-e3f4-496d-ace7-768da72b755d" />
+**Result:** Terraform identified one IAM group resource to be created and generated an execution plan prior to deployment.
 
 
 
