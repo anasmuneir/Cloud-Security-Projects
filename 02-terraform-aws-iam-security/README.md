@@ -61,6 +61,11 @@ Result: Group-based access control implemented by assigning permissions through 
 <img width="1327" height="163" alt="image" src="https://github.com/user-attachments/assets/065385bd-69ab-49be-9d3e-bad94da3430e" />
 Result: AWS CLI successfully authenticated using IAM access keys.
 
+### Terraform Initialization
+
+<img width="1237" height="250" alt="image" src="https://github.com/user-attachments/assets/f6459a42-359b-4d86-9a3e-a08c74b48e9c" />
+Result: Terraform initialized successfully and the AWS provider was downloaded and configured.
+
 
 
 
