@@ -1,3 +1,4 @@
+
 # AWS IAM Security Foundations with Terraform
 
 ## Executive Summary
@@ -17,7 +18,17 @@ Provision IAM resources through Terraform and manage permissions using group-bas
 
 ## Architecture
 
-Terraform → AWS Provider → IAM User → IAM Group → IAM Policy
+```text
+Terraform
+    ↓
+AWS Provider
+    ↓
+IAM User
+    ↓
+IAM Group
+    ↓
+IAM Policy
+```
 
 ## Key Concepts
 
@@ -76,12 +87,11 @@ Result: Terraform identified one IAM group resource to be created and generated 
 <img width="1372" height="345" alt="image" src="https://github.com/user-attachments/assets/ce2d02db-e915-48da-9060-6c30e3c5614b" />
 Result: Terraform successfully provisioned an IAM group in AWS using Infrastructure as Code.
 
+
 ### IAM Group Membership Validation
 
 <img width="1373" height="681" alt="image" src="https://github.com/user-attachments/assets/4bc7272d-0afd-4d34-9d0b-6216f9374cd1" />
 Result: Terraform successfully assigned the `security_analyst` IAM user to the `security_team` IAM group.
-
-
 
 
 
