@@ -74,7 +74,11 @@ Result: Terraform initialized successfully and the AWS provider was downloaded a
 ### Terraform Apply
 
 <img width="1237" height="653" alt="image" src="https://github.com/user-attachments/assets/2f4d40c1-7f9b-4c15-b699-6e67f621de23" />
+
+<img width="1372" height="345" alt="image" src="https://github.com/user-attachments/assets/ce2d02db-e915-48da-9060-6c30e3c5614b" />
 **Result:** Terraform successfully provisioned an IAM group in AWS using Infrastructure as Code.
+
+
 
 
 
