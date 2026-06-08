@@ -93,6 +93,10 @@ Result: Terraform successfully provisioned an IAM group in AWS using Infrastruct
 <img width="1373" height="681" alt="image" src="https://github.com/user-attachments/assets/4bc7272d-0afd-4d34-9d0b-6216f9374cd1" />
 Result: Terraform successfully assigned the `security_analyst` IAM user to the `security_team` IAM group.
 
+## Outcome
+Terraform successfully provisioned and managed AWS IAM resources through Infrastructure as Code. An IAM user and IAM group were created, and group-based access control was implemented by assigning the user to the group. The project demonstrated secure AWS authentication, Terraform state management, and foundational IAM security principles.
+
+
 
 
 
