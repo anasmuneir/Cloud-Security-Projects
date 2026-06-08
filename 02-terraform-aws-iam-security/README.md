@@ -69,19 +69,19 @@ Result: Terraform initialized successfully and the AWS provider was downloaded a
 ### Terraform Plan
 
 <img width="1235" height="380" alt="image" src="https://github.com/user-attachments/assets/583be098-e3f4-496d-ace7-768da72b755d" />
-**Result:** Terraform identified one IAM group resource to be created and generated an execution plan prior to deployment.
+Result: Terraform identified one IAM group resource to be created and generated an execution plan prior to deployment.
 
 ### Terraform Apply
 
 <img width="1237" height="653" alt="image" src="https://github.com/user-attachments/assets/2f4d40c1-7f9b-4c15-b699-6e67f621de23" />
 
 <img width="1372" height="345" alt="image" src="https://github.com/user-attachments/assets/ce2d02db-e915-48da-9060-6c30e3c5614b" />
-**Result:** Terraform successfully provisioned an IAM group in AWS using Infrastructure as Code.
+Result: Terraform successfully provisioned an IAM group in AWS using Infrastructure as Code.
 
 ### IAM Group Membership Validation
 
 <img width="1373" height="681" alt="image" src="https://github.com/user-attachments/assets/4bc7272d-0afd-4d34-9d0b-6216f9374cd1" />
-**Result:** Terraform successfully assigned the `security_analyst` IAM user to the `security_team` IAM group.
+Result: Terraform successfully assigned the `security_analyst` IAM user to the `security_team` IAM group.
 
 
 
