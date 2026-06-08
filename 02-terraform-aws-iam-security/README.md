@@ -91,8 +91,14 @@ IAM Policy
 
 **Result:** Terraform successfully assigned the `security_analyst` IAM user to the `security_team` IAM group.
 
+### Terraform Destroy
+<img width="1243" height="671" alt="image" src="https://github.com/user-attachments/assets/5a631df1-7f12-456c-9719-7b3cde2397d9" />
+
+**Result:** Terraform successfully removed all IAM resources and returned the AWS environment to its original state.
+
 ## Outcome
 Terraform successfully provisioned and managed AWS IAM resources through Infrastructure as Code. An IAM user and IAM group were created, and group-based access control was implemented by assigning the user to the group. The project demonstrated secure AWS authentication, Terraform state management, and foundational IAM security principles.
+
 
 
 
