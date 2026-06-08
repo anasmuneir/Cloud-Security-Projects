@@ -57,4 +57,8 @@ Result: Group-based access control implemented by assigning permissions through 
 
 **Security Note**: AdministratorAccess was used in this lab. Production environments should follow the Principle of Least Privilege.
 
+### AWS Authentication Verification
+<img width="1327" height="163" alt="image" src="https://github.com/user-attachments/assets/065385bd-69ab-49be-9d3e-bad94da3430e" />
+
+
 
