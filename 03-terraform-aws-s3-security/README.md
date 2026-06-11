@@ -45,3 +45,8 @@ Public Access Block
 
 **Result:** Terraform generated an execution plan to create an Amazon S3 bucket.
 
+### Terraform Apply
+
+<img width="927" height="886" alt="image" src="https://github.com/user-attachments/assets/9dfcc846-5e0b-4553-84f1-5c208c31de98" />
+
+**Result:** Terraform successfully provisioned an Amazon S3 bucket through Infrastructure as Code.
