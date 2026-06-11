@@ -71,4 +71,11 @@ Public Access Block
 
 **Result:** Public Access Block settings were successfully verified in AWS. All public access controls are enabled, preventing accidental public exposure of bucket contents and strengthening data confidentiality through defense-in-depth.
 
+### Infrastructure Cleanup
+
+<img width="1173" height="1147" alt="image" src="https://github.com/user-attachments/assets/6174b065-7ba1-46a9-a6b3-f63b0c6eddf1" />
+
+**Result:** Terraform successfully destroyed all AWS resources created during this project, demonstrating proper infrastructure lifecycle management and preventing unnecessary cloud resource consumption.
+
+
 
