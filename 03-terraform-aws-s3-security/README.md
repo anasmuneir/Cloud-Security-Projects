@@ -33,3 +33,8 @@ Public Access Block
 
 ```
 
+### Terraform Initialization
+
+<img width="1047" height="506" alt="image" src="https://github.com/user-attachments/assets/2d6b08cf-f2d3-458a-b56a-370c286d23c9" />
+
+**Result:** Terraform initialized successfully and downloaded the AWS provider required for S3 resource management.
