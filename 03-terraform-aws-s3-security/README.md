@@ -18,4 +18,18 @@ Provision an Amazon S3 bucket through Terraform with encryption, versioning, and
 
 ## Architecture
 
-Terraform → AWS Provider → S3 Bucket → Encryption → Versioning → Public Access Block
+```text
+Terraform
+    ↓
+AWS Provider
+    ↓
+S3 Bucket
+    ↓
+Encryption
+    ↓ 
+Versioning
+    ↓ 
+Public Access Block
+
+```
+
