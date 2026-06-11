@@ -57,3 +57,9 @@ Public Access Block
 <img width="1316" height="367" alt="image" src="https://github.com/user-attachments/assets/a09869a2-3fce-4a09-8a6e-2e47e5712909" />
 
 **Result:** S3 bucket versioning was successfully verified in AWS, enabling recovery of previous object versions and providing protection against accidental deletion or unintended modifications.
+
+### S3 Encryption Validation
+
+<img width="1327" height="387" alt="image" src="https://github.com/user-attachments/assets/3deebb10-4bd9-4fe6-b9bf-cfb7a9bdd695" />
+
+**Result:** Server-side encryption was successfully verified on the S3 bucket using Amazon S3 managed keys (SSE-S3) with AES-256 encryption, ensuring data is encrypted at rest.
