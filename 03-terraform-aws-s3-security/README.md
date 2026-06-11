@@ -51,3 +51,9 @@ Public Access Block
 <img width="1366" height="396" alt="image" src="https://github.com/user-attachments/assets/f7c739a1-8fa2-41e9-b9b2-061005c595d2" />
 
 **Result:** Terraform successfully provisioned an Amazon S3 bucket through Infrastructure as Code.
+
+### S3 Versioning Validation
+
+<img width="1316" height="367" alt="image" src="https://github.com/user-attachments/assets/a09869a2-3fce-4a09-8a6e-2e47e5712909" />
+
+**Result:** S3 bucket versioning was successfully verified in AWS, enabling recovery of previous object versions and providing protection against accidental deletion or unintended modifications.
