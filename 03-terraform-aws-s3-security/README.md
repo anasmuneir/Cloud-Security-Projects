@@ -63,3 +63,12 @@ Public Access Block
 <img width="1327" height="387" alt="image" src="https://github.com/user-attachments/assets/3deebb10-4bd9-4fe6-b9bf-cfb7a9bdd695" />
 
 **Result:** Server-side encryption was successfully verified on the S3 bucket using Amazon S3 managed keys (SSE-S3) with AES-256 encryption, ensuring data is encrypted at rest.
+
+### S3 Public Access Block Validation
+
+<img width="1312" height="310" alt="image" src="https://github.com/user-attachments/assets/98e661db-48f5-412a-92b3-f02b30b3b372" />
+<img width="1366" height="695" alt="image" src="https://github.com/user-attachments/assets/7aa8a2e2-ef79-42aa-9196-6473f4ae82bc" />
+
+**Result:** Public Access Block settings were successfully verified in AWS. All public access controls are enabled, preventing accidental public exposure of bucket contents and strengthening data confidentiality through defense-in-depth.
+
+
