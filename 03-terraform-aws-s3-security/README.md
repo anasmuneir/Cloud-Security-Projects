@@ -77,5 +77,18 @@ Public Access Block
 
 **Result:** Terraform successfully destroyed all AWS resources created during this project, demonstrating proper infrastructure lifecycle management and preventing unnecessary cloud resource consumption.
 
+## Challenges Faced
+
+* Initially encountered Terraform state management issues after changing the resource name from `secure-bucket` to `secure_bucket`, which caused Terraform to plan a resource destruction and recreation.
+* Learned how Terraform tracks infrastructure using the state file and resolved the issue using `terraform state mv`.
+* Gained a deeper understanding of the difference between AWS default security behavior and explicitly enforced security controls through Terraform.
+* Clarified the distinction between encryption, access control, and public access protection while implementing S3 security configurations.
+* Improved troubleshooting skills by reviewing Terraform execution plans before applying changes.
+
+## Outcome
+
+Successfully provisioned and secured an AWS S3 bucket using Terraform. Implemented key security controls including bucket versioning, server-side encryption (AES-256), and S3 Public Access Block. Validated all configurations in the AWS Management Console and demonstrated complete infrastructure lifecycle management by creating, securing, verifying, and destroying cloud resources using Infrastructure as Code (IaC).
+
+
 
 
