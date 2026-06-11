@@ -48,5 +48,6 @@ Public Access Block
 ### Terraform Apply
 
 <img width="927" height="886" alt="image" src="https://github.com/user-attachments/assets/9dfcc846-5e0b-4553-84f1-5c208c31de98" />
+<img width="1366" height="396" alt="image" src="https://github.com/user-attachments/assets/f7c739a1-8fa2-41e9-b9b2-061005c595d2" />
 
 **Result:** Terraform successfully provisioned an Amazon S3 bucket through Infrastructure as Code.
