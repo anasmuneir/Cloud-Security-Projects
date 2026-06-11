@@ -38,3 +38,10 @@ Public Access Block
 <img width="1047" height="506" alt="image" src="https://github.com/user-attachments/assets/2d6b08cf-f2d3-458a-b56a-370c286d23c9" />
 
 **Result:** Terraform initialized successfully and downloaded the AWS provider required for S3 resource management.
+
+### Terraform Plan
+
+<img width="900" height="882" alt="image" src="https://github.com/user-attachments/assets/49ecf4e4-f4bb-448b-8ee1-506d9ae075a9" />
+
+**Result:** Terraform generated an execution plan to create an Amazon S3 bucket.
+
