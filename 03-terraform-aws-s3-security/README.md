@@ -19,18 +19,28 @@ Provision an Amazon S3 bucket through Terraform with encryption, versioning, and
 ## Architecture
 
 ```text
-Terraform
-    ↓
-AWS Provider
-    ↓
-S3 Bucket
-    ↓
-Encryption
-    ↓ 
-Versioning
-    ↓ 
-Public Access Block
+                     Terraform
+                         │
+                         ▼
+                    AWS Provider
+                         │
+                         ▼
+                     S3 Bucket
+                         │
+        ┌────────────────┼────────────────┐
+        │                │                │
+        ▼                ▼                ▼
 
+ Server-Side           Bucket         Public Access
+ Encryption           Versioning          Block
+  (AES-256)            Enabled           Enabled
+
+        │                │                │
+        └────────────────┼────────────────┘
+                         │
+                         ▼
+
+                   Secure S3 Bucket
 ```
 
 ### Terraform Initialization
