@@ -5,3 +5,9 @@ resource "aws_vpc" "secure_vpc" {
         name = "secure_vpc"
     }
 } 
+
+#Public subnet for internet-facing resources
+resource "aws_subnet" "public_subnet" {
+    vpc_id = aws_vpc.secure_vpc.id
+    cidr_block = 10.0.1.0/24
+}
