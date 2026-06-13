@@ -26,6 +26,10 @@ The following security controls will be implemented throughout this project:
 * Least Privilege Access
 * Infrastructure as Code (IaC)
 
-## Project Status
+## Terraform Deployment
 
-🚧 In Progress
+<img width="1656" height="275" alt="image" src="https://github.com/user-attachments/assets/89ecdb8d-447a-43d3-b77a-78ade705b679" />
+
+
+**Result:** Terraform successfully provisioned the VPC and subnet architecture. Three resources were created with no errors, demonstrating Infrastructure as Code (IaC) deployment and automated resource provisioning.
+
