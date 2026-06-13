@@ -27,7 +27,7 @@ Design and deploy a secure AWS network architecture using Terraform by provision
                   │                                                   │
                   ▼                                                   ▼
 
-        Public Subnet (10.0.1.0/24)                    Private Subnet (10.0.2.0/24)
+        Public Subnet (10.0.1.0/24)                        Private Subnet (10.0.2.0/24)
                   │                                                   │
                   │                                                   │
                   ▼                                                   ▼
