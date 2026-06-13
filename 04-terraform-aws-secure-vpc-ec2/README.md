@@ -14,17 +14,44 @@ Design and deploy a secure AWS network architecture using Terraform by provision
 
 ## Architecture
 
-[Architecture Diagram Coming Soon]
+```text
+                                        Internet
+                                            │
+                                            ▼
+                                     Internet Gateway
+                                            │
+                                            ▼
+                                   AWS VPC (10.0.0.0/16)
+                                            │
+                  ┌─────────────────────────┴─────────────────────────┐
+                  │                                                   │
+                  ▼                                                   ▼
+
+        Public Subnet (10.0.1.0/24)                    Private Subnet (10.0.2.0/24)
+                  │                                                   │
+                  │                                                   │
+                  ▼                                                   ▼
+
+          Security Group                                       Internal Resources
+       (Least Privilege Access)                           (Database / Backend Services)
+                  │
+                  ▼
+
+             EC2 Instance
+          (Amazon Linux 2023)
+```
+
 
 ## Security Controls
 
 The following security controls will be implemented throughout this project:
 
-* Network Segmentation
-* Public and Private Subnets
-* Security Groups
-* Least Privilege Access
-* Infrastructure as Code (IaC)
+* Custom VPC for network isolation
+* Public and private subnet segmentation
+* Internet Gateway for controlled internet connectivity
+* Security Group enforcing least privilege access
+* Infrastructure as Code (Terraform)
+* Resource tagging for governance and asset management
 
 ## Terraform Deployment
 
