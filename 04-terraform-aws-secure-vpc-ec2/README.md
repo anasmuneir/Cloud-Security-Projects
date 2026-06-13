@@ -65,5 +65,11 @@ The following security controls will be implemented throughout this project:
 
 <img width="1372" height="342" alt="image" src="https://github.com/user-attachments/assets/1258125a-31e5-4e19-b3ea-7b01699fb9af" />
 
-
 Result: A custom VPC was successfully provisioned using Terraform to establish a dedicated network security boundary and isolate project resources from the default AWS network.
+
+## Network Segmentation Validation
+
+<img width="1720" height="327" alt="image" src="https://github.com/user-attachments/assets/f3640e2e-be94-4297-950e-d4d57981059e" />
+
+Result: Public and private subnets were successfully deployed within the VPC, implementing network segmentation and reducing the attack surface by separating internet-facing and internal resources.
+
